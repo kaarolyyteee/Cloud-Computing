@@ -1,0 +1,19 @@
+{
+  "name": "cloud-computing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaarolyyteee/Cloud-Computing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaarolyyteee/Cloud-Computing/issues"
+  },
+  "homepage": "https://github.com/kaarolyyteee/Cloud-Computing#readme"
+}
