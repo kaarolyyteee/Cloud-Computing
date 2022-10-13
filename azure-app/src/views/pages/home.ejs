@@ -6,9 +6,20 @@
   <body class="container">
     <header><%- include('../partials/header'); %></header>
     <main>
+      <%- include('../partials/postForm'); %>
       <div class="jumbotron">
         <h1>Feed</h1>
         <p>My thoughts</p>
+        <ul>
+          <% posts.forEach((post) => { %>
+          <li>
+            <h4><%= post.title %></h4>
+            <% if(!post.isAnonymous){ %>
+            <h6>By <%= post.author %></h6>
+            <% }; %> <%= post.text %>
+          </li>
+          <%});%>
+        </ul>
       </div>
     </main>
 
