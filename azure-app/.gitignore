@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
-DigiCertGlobalRootCA.crt.pem
+.env
+.deployment
+.vscode
