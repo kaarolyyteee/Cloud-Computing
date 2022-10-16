@@ -4,5 +4,8 @@
         "server": "npm start server --prefix server",
         "client": "npm start client --prefix client",
         "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+        "concurrently": "^7.4.0"
     }
 }
