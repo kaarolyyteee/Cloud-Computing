@@ -1,5 +1,0 @@
-{
-    "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
-    "appService.defaultWebAppToDeploy": "/subscriptions/8a966a15-704d-4f4d-83f7-0ccb9b25a892/resourceGroups/cloud-computing/subscriptions/8a966a15-704d-4f4d-83f7-0ccb9b25a892/resourceGroups/cloud-computing/providers/Microsoft.Web/sites/karolina-blog",
-    "appService.deploySubpath": "."
-}
