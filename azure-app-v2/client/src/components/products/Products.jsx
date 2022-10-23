@@ -5,7 +5,8 @@ import ReadOnlyProduct from './ReadOnlyProducts';
 import Button from '../common/Button';
 
 const serverUrl =
-  (process.env.REACT_APP_SERVER_URI || 'http://localhost:8080') + '/api/v1/products';
+  (process.env.REACT_APP_SERVER_URI || 'http://localhost:8080') +
+  'api/v1/products';
 
 const Products = () => {
   const [products, setProducts] = useState([
