@@ -1,0 +1,35 @@
+package ecom;
+syntax = "proto3";
+
+service OrdersService {
+    rpc createOrder (CreateOrderRequest) returns (CreateOrderResponse) {}
+    rpc getOrders (GetOrdersRequest) returns (GetOrdersResponse) {}
+}
+
+message CreateOrderRequest {
+    repeated Product products = 1;
+    float totalPrice = 2;
+}
+
+message CreateOrderResponse {
+    Order order = 1;
+}
+
+message GetOrdersRequest {}  
+
+message GetOrdersResponse {
+    repeated Order orders = 1;
+}  
+
+message Order {
+    string id = 1;
+    repeated Product products = 2;
+    float total_price = 3;
+}
+
+message Product {
+    string id = 1;
+    string name = 2;
+    float price = 3;
+    int32 quantity = 4;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "karolinag karolina.gribauskaite@stud.mif.vu.lt",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "~1.8.0",
+    "@grpc/proto-loader": "~0.7.4",
+    "dotenv": "^16.0.3",
+    "nodemon": "~2.0.20",
+    "uuid": "~9.0.0"
+  }
+}
